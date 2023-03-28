@@ -26,3 +26,4 @@ run below in an environment where `xray1.8.0` is installed
 - `PUBLIC_KEY`: server private key
 - `SHORT_ID`: a short id used in REALITY configuration
 - `SERVER_IP`: server ip used in generating config vless share link
+ 
