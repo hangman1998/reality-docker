@@ -18,6 +18,10 @@ run below in an environment where `xray1.8.0` is installed
 
 `openssl rand -hex 8`
 
+## finding list of server names for a dest
+
+`xray tls ping domain.com`
+
 ## Environment Variables
 
 - `PORT`: server listening port
@@ -26,4 +30,5 @@ run below in an environment where `xray1.8.0` is installed
 - `PUBLIC_KEY`: server private key
 - `SHORT_ID`: a short id used in REALITY configuration
 - `SERVER_IP`: server ip used in generating config vless share link
- 
+- `DEST`: sni destination used in REALITY config.
+- `DPORT`: the port used for destination (use 443 if you are not sure)

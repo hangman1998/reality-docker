@@ -28,11 +28,11 @@
         "security": "reality",
         "realitySettings": {
           "show": false,
-          "dest": "yahoo.com:443",
+          "dest": "$DEST:$DPORT",
           "xver": 0,
           "maxTimeDiff": 0,
           "minClientVer": "1.8.0",
-          "serverNames": ["yahoo.com", "www.yahoo.com"],
+          "serverNames": ["$DEST"],
           "privateKey": "$PRIVATE_KEY",
           "shortIds": ["$SHORT_ID"]
         }
